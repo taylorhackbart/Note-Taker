@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const action = require("../db/action.js");
+const action = require("../db/action");
 
 //GETTING NOTES
 router.get("/notes", function (req, res) {
@@ -13,7 +13,7 @@ router.post("/notes", function (req, res) {
 
 //DELETING NOTES BASED ON THEIR ID VALUE
 router.delete("/notes/:id", function (req, res) {
-  action.removeNote(req.params.id).then(() => res.json({ extended: true }));
+  action.removeNote(req.params.id).then(() => res.json({ ok : true }));
 });
 
 module.exports = router;
