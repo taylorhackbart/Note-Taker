@@ -13,7 +13,7 @@ router.post("/notes", function (req, res) {
 
 //DELETING NOTES BASED ON THEIR ID VALUE
 router.delete("/notes/:id", function (req, res) {
-  action.removeNote(req.params.id).then(() => res.json({ ok : true }));
+  action.deleteNote(req.params.id).then(() => res.json({ ok : true }));
 });
 
 module.exports = router;

@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const fs = require("fs");
-const uuid = require("uuid");
+const uuidv1 = require("uuidv1");
 
 //ROUTES REQUIRED
 const apiRoute = require("./routes/apiroutes");
