@@ -1,7 +1,7 @@
 # Note Taker
 
 ## Description
-This note taker has been developed to allow the user to add and delete notes to keep track of tasks or important deadlines. To access the site, click <a ref="https://hidden-fortress-15223.herokuapp.com/"> here </a> . It is deployed off of the Heroku website. 
+This note taker has been developed to allow the user to add and delete notes to keep track of tasks or important deadlines. To access the site, click <a href="https://hidden-fortress-15223.herokuapp.com/"> here </a> . It is deployed off of the Heroku website. 
 
 ## Technologies used
 JavaScript, Nodejs, Express
